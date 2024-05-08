@@ -1,0 +1,21 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "First nodejs project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "mongoDb",
+    "rest-api"
+  ],
+  "author": "kernerlog <kernelogy@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
